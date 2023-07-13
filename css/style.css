@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    margin: 0 4rem;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 5%;
+
+}
+
+/* toogle */
+.changeColor {
+    background-color: #000;
+    overflow: 1;
+}
+
+nav button {
+    padding: 10px 200px;
+    color: aqua;
+    background-color: #450e50;
+    box-shadow: 5px -5px 10px #450e50,
+        -5px 5px 10px #c92ae8;
+    ;
+}
+
+body {
+    background-color: #6e6e6e;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: block;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 7rem auto;
+    justify-content: center;
+}
+
+/* modal box */
+.modal-box {
+    background-color: #fff;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    border: 2px solid #6e6e6e;
+    top: 0;
+    /* display: none; */
+}
+
+.modal-mode span {
+    float: right;
+    margin-top: 0;
+    margin-right: 15px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.modal-header {
+    margin: 10px 0 0 0;
+    padding: 5px 30px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.modal-para {
+    color: black;
+    margin: 5px 10px 15px 10px;
+}
+
+.modal-button {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 20px 0 20px;
+}
+.modal-changes {
+    background-color: hsl(203, 88%, 45%);
+    color: #fff;
+    padding: 10px 35px;
+    margin: 0 0 0 50px;
+    border: none;
+}
+
+
+
+/* product style */
+section {
+    width: 30%;
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 2px solid #2d2d2d;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+h4 {
+    color: chocolate;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Overpass", sans-serif;
+}
+
+p {
+    color: teal;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
+
+span {
+    font-size: 25px;
+    margin-top: 10px;
+    color: black;
+}
+
+button {
+    margin: 15px 40px;
+    background-color: hsl(240, 10%, 16%);
+    color: hsl(356, 100%, 66%);
+    font-family: "Overpass", sans-serif;
+    padding: 10px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
